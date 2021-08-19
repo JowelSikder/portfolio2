@@ -1,0 +1,179 @@
+@media screen and (max-width: 1190px) {
+   .project .video_caption p {
+       font-size: 1.7rem;
+   }
+   .project .video_caption h1{
+       font-size: 2.7rem;
+       margin-top: 10px;
+   }
+}
+@media screen and (max-width: 1050px) {
+   
+    .project .video_caption p {
+        font-size: 1.5rem;
+    }
+    .project .video_caption h1{
+        font-size: 2.4rem;
+        margin-top: 20px;
+    }
+
+    form button{
+        padding: 8px 15px;
+    }
+ }
+
+
+ @media screen and (max-width: 1000px) {
+
+    .hamburger{
+        display: inline;
+        
+    }
+
+
+    #left{
+        margin-left: -100%;
+        z-index: 1000;
+        transition: 0.5s;
+    }
+    
+    
+    #navbar{
+        margin-left: -100%;
+        transition: 0.5s;
+    }
+
+
+    #right{
+        width: 100%;
+        padding: 0;
+    }
+   
+ }
+
+ @media screen and (max-width: 765px) {
+
+    .about .details{
+        padding-bottom: 20px;
+      
+    }
+
+    
+
+    .project .container{
+        flex-direction: column;
+    }
+ 
+   .skill{
+       padding-top: 400px;
+   }
+
+   #right{
+       background-color: black;
+   }
+
+   .project{
+       padding-top: 640px;
+      
+   }
+
+   .contact{
+       padding-top: 600px;
+       background-color: black;
+   }
+
+   .video_caption{
+       display: none;
+   }
+
+   /* video{
+      width: 500px;
+    
+      
+        
+   } */
+
+   form button{
+       margin-top: 20px;
+   }
+
+
+
+  
+  textarea{
+      width: 100%;
+  }
+
+  .contact .col-md-6{
+      padding:20px 10px ;
+  }
+
+  .contact{
+      padding-bottom: 30px;
+  }
+
+  .frontend{
+    margin-bottom:-30px;
+}
+
+.skill_category{
+    padding: 0 16px;
+}
+
+
+.contact .col-md-6{
+    padding: 0 25px;
+}
+
+#footer{
+    margin-top: 790px;
+}
+
+
+   
+ }
+
+ 
+@media screen and (max-width: 480px) {
+   .home p{
+     letter-spacing: 1px;
+     text-align: left;
+     word-spacing: unset;
+   }
+}
+
+@media screen and (max-width: 400px) {
+    #left{
+        width: 100%;
+    }
+
+    #navbar{
+        left: 30%;
+    }
+ }
+
+ @media screen and (max-width: 382px) {
+   .home p{
+       font-size: 1.4rem;
+   }
+
+   .home h1{
+       font-size: 2.4rem;
+   }
+ }
+
+ @media screen and (max-width: 370px) {
+    .home p{
+        font-size: 1.3rem;
+    }
+ 
+    .home h1{
+        font-size: 2.2rem;
+    }
+
+    #left{
+        padding-right: 50px;
+    }
+    
+  }
+
